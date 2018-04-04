@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	
+	<body>
+	
+		<h1>Inputs</h1>
+		<p>Inputs with labels</p>
+		
+		<form>
+			<label for="nome">Nome:</label>
+			<input id="nome" name="user" type="text" size="15" maxlength="15"	 />
+			
+			<label for="senha">Senhas:</label>
+			<input id="senha" name="pass" type="password" size="15" maxlength="10" />
+			
+			<h4> Radio Buttons</h4>
+			<p>Linguagem Preferida?</p>
+						
+			<input id="php" type="radio" name="linguagem" value="PHP" /><label for="php">PHP</label> <br>			
+			<input id="jsp" type="radio" name="linguagem" value="JSP" /><label for="jsp">JSP</label>
+			
+			
+			<br>
+			<h3>CheckBox</h3>
+			<p>Programar em qual linguagem?</p> 
+						
+			<input type="checkbox" name="ling" value="PHP" checked />PHP<br>
+			<input type="checkbox" name="ling" value="JSP" />JSP<br>
+			<input type="checkbox" name="ling" value="ASP" />ASP<br>
+			<input type="checkbox" name="ling" value="python" checked />Python<br><br>
+			
+					
+			<br>
+			
+			<h3>Textarea,</h3>
+			<p>Deixe sua opinião sobre o curso: </p>
+			<textarea name="opiniao" rows="5" cols="40">Digite aqui sua avaliação deste curso</textarea>
+				
+			<br>
+			<h3>Input type: submit e reset</h3>
+			<input type="submit" value="enviar" /><br>
+			<input type="reset" value="limpar" />
+			
+			<br>
+			<h3>Arquivo de upload</h3>
+			<input type="file" name="fileupload" value="abc.txt" />
+		</form>
+	</body> 
+</html>
